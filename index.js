@@ -13,6 +13,7 @@ app.get('/',(req, res)=>{
 });
 
 app.get('/categories',(req, res)=>{
+    console.log(categories);
     res.send(categories);
 });
 
